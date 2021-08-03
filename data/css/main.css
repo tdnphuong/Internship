@@ -68,6 +68,10 @@ body{
     top:100px;
     
 }
+.Banner-button > a {
+    text-decoration: none;
+    color: white;
+}
 .Banner-button i {
     color: #10592e;
     border-radius: 50%;
@@ -180,8 +184,12 @@ body{
     font-weight: bold;
     margin-top: 10px;
 }
+.as_seen_on_button button > a {
+    color: black;
+    text-decoration: none;
+}
 .as_seen_on_button button:hover{
-    background-color: #10592e;
+    background-color: blue;
 }
 /*Our Process*/
 .our_process{
@@ -220,6 +228,10 @@ body{
     padding-top: 20px;
 
 }
+.our_process_button a {
+    text-decoration: none;
+    color: black;
+}
 .our_process_button button{
     border-radius: 35px;
     border: 2px solid #10592e;
@@ -230,7 +242,7 @@ body{
     font-weight: bold;
 }
 .our_process_button button:hover{
-    background-color: #10592e;
+    background-color: blue;
 }
 /*Parent Approved*/
 .parent_approved {
@@ -240,30 +252,30 @@ body{
     height: 690px;
     left: 0;
  }
- .parent_approved_conten {
+ .parent_approved_content {
     display: flex;
     justify-content: space-around;
     padding-top: 27px;
 }
-.parent_approved_conten_title {
+.parent_approved_content_title {
     padding-left: 0;
     width: 43%;
     margin: 30px auto;
     text-align: center;
     list-style: none;
 }
-.parent_approved_conten_title h1 {
+.parent_approved_content_title h1 {
     color: black;
     font-size: 40px;
     font-family: 'Montserrat';
 }
-.parent_approved_conten_title p {
+.parent_approved_content_title p {
     color: rgb(110, 110, 110);
     font-size: 15px;
     font-family: 'Montserrat';
 }
 
-.parent_approved_conten_text {
+.parent_approved_content_text {
     text-align: center;
 }
 .parent_approved_video {
@@ -275,24 +287,24 @@ body{
     flex-wrap: wrap;
     max-width: 1228px;
 }
-.parent_approved_video_geo {
+.parent_approved_video1 {
     border-radius: 20px;
     padding-left: 0;
     list-style: none;
     background-color: white;
     padding-bottom: 10px
 }
-.parent_approved_video_geo img {
+.parent_approved_video1 img {
     width: 310px;
 }
-.parent_approved_video_geo_text {
+.parent_approved_video1_text {
     padding-left: 20px;
 }
-.parent_approved_video_geo_text > h3 > a {
+.parent_approved_video1_text > h3 > a {
     color: black;
     text-decoration: none;
 }
-.parent_approved_video_geo_text p{
+.parent_approved_video1_text p{
     color: rgb(110, 110, 110);
     font-size: 13px;
     word-wrap: break-word;
@@ -300,11 +312,13 @@ body{
     font-family: 'Montserrat';
 
 }
-.geo__button {
+.pa__button {
     padding-right: 70px;
 }
-
-.geo__button_bored {
+.pa__button button:hover {
+    background-color: blue;
+}
+.pa__button1 {
    
     font-size: 14px;
     margin-left: 0;
@@ -315,9 +329,12 @@ body{
     width: 150px;
     font-weight: bold;
 }
-geo__button_bored:hover{
-    background: #10592e;
+
+.pa__button1  a{
+    text-decoration: none;
+    color: black;
 }
+
 
 /*test*/
 
