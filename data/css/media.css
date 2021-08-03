@@ -28,6 +28,7 @@
     .Banner-button{
         margin-bottom: 20px;
     }
+    
     /* .nav__bars{
     margin: 35px -50px 0 0;
     display: block;
@@ -686,13 +687,13 @@
         margin-left: 40px;
         top: -30px;
     }
-    .parent_approved_conten_title h1 {
+    .parent_approved_content_title h1 {
         color: black;
         font-size: 35px;
         width: 290px;
         margin-left: -66px;
     }
-    .parent_approved_conten_title p {
+    .parent_approved_content_title p {
         color: rgb(110, 110, 110);
         font-size: 12px;
         width: 283px;
