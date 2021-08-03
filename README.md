@@ -1,1 +1,1 @@
-https://github.com/tdnphuong/Internship/settings/pages
+https://tdnphuong.github.io/Internship/
